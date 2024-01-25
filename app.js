@@ -17,6 +17,15 @@ document.addEventListener('scroll', () => {
 	}
 });
 
+// <!-- typed js effect starts -->
+var typed = new Typed(".typing-text", {
+    strings: ["Software Automation", "Java Development","Frontend Development",  "web development", "competitive programming"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 500,
+});
+
 menu_item.forEach((item) => {
 	item.addEventListener('click', () => {
 		hamburger.classList.toggle('active');
