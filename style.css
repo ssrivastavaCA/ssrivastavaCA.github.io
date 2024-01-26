@@ -271,7 +271,7 @@ p {
 }
 #hero h1:nth-child(4) {
 	font-size: 2rem;
-	animation: text_reveal_name .5s ease forwards;
+	animation: text_reveal .5s ease forwards;
 	animation-delay: 4s;
 }
 #hero h1 span {
